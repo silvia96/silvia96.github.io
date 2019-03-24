@@ -4,6 +4,12 @@ body {
   font-family: "Palatino Linotype", "Book Antiqua", Palatino, serif;
 }
 
+div {
+  min-height: 50vh;
+  width: 85vw;
+  padding: 50px 50px 50px 50px;
+}
+
 h1, h2, h3, h4 {
   text-align: center;
 }
@@ -47,4 +53,14 @@ li:hover {
   display: block;
   margin-left: auto;
   margin-right: auto;
+}
+
+div.contrast {
+  background-color: white;
+  color: rgb(112,128,144);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  padding: 50px 50px 50px 50px;
 }
