@@ -1,7 +1,8 @@
 body {
   color: rgb(112,128,144);
   background-image: linear-gradient(rgb(255, 228, 225),rgb(240,255,240));
-  font-family: "Palatino Linotype", "Book Antiqua", Palatino, serif;
+      font-weight: 100;
+    letter-spacing: 1px;
 }
 
 h1, h2, h3, h4 {
@@ -25,20 +26,7 @@ p {
   font-size: 1.5em;
 }
 
-ul {
-  list-style-type: circle;
-  display: grid;
-  font-size: 1.5em;
-  padding: 50px 50px 50px 50px;
-}
 
-li {
-  transition: 0.6s ease-in-out;
-}
-
-li:hover {
-  font-size: 1.2em;
-  transition: 0.3s ease-in-out;
 }
 
 .center {
@@ -47,39 +35,6 @@ li:hover {
   margin-right: auto;
 }
 
-div.contrast {
-  background-color: white;
-  color: rgb(112,128,144);
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  flex-direction: column;
-  padding: 50px 50px 50px 50px;
-}
-
-ul {
-  list-style-type: none;
-  margin: 0;
-  padding: 0;
-  overflow: hidden;
-  background-color: white;
-}
-
-li {
-  float: left;
-}
-
-li a {
-  display: block;
-  color: black;
-  text-align: center;
-  padding: 14px 16px;
-  text-decoration: none;
-}
-
-li a:hover {
-  background-color: #111;
-}
 
 .nav{
     background:#FFF;
@@ -161,6 +116,7 @@ input[type=submit]:hover {
   clear: both;
 }
 
+
 @media screen and (max-width: 600px) {
   .column, input[type=submit] {
     width: 100%;
@@ -200,4 +156,21 @@ li a {
 
 li a:hover {
   background-color: #111;
+}
+
+li:hover {
+  font-size: 1.2em;
+  transition: 0.3s ease-in-out;
+}
+
+li {
+.contrastlist li {
+  margin: 0 20px;
+  transition: 0.6s ease-in-out;
+}
+
+div {
+  min-height: 50vh;
+  width: 100vw;
+  padding: 50px 50px 50px 50px;
 }
