@@ -164,7 +164,7 @@ li:hover {
 }
 
 li {
-.contrastlist li {
+{
   margin: 0 20px;
   transition: 0.6s ease-in-out;
 }
