@@ -87,8 +87,89 @@ li a:hover {
   background-color: #111;
 }
 
+.nav{
+    background:#FFF;
+    list-style:none;
+    margin:0;
+    padding:10px;
+    text-align:center;
+}
+.nav li{
+    display:inline;
+}
+.nav a{
+    display:inline-block;
+    text-decoration:none;
+    color: #000000;
+    font-size: 18px;
+    font-weight: 100;
+    letter-spacing: 1px;
+    padding:10px;
+}
+
 .carousel-inner .carousel-item {
   transition: -webkit-transform 2s ease;
   transition: transform 2s ease;
   transition: transform 2s ease, -webkit-transform 2s ease;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+input[type=text], select, textarea {
+  width: 100%;
+  padding: 12px;
+  border: 0.5px solid #ccc;
+  margin-top: 6px;
+  margin-bottom: 16px;
+  resize: vertical;
+    margin:0 0 25px;
+    overflow:hidden;
+    padding:20px;
+    border-radius: 20px;
+}
+
+input[type=submit] {
+  background-color: #FFC0CB;
+  color: white;
+  padding: 12px 20px;
+  border: none;
+  cursor: pointer;
+    margin:0 0 25px;
+    overflow:hidden;
+    padding:20px;
+    background-color:lightpink;
+    border:1px solid #FFC0CB;
+    border-radius: 20px;
+}
+
+input[type=submit]:hover {
+  background-color: #DB7093;
+}
+
+.container {
+  border-radius: 5px;
+  padding: 10px;
+}
+
+.column {
+  float: left;
+  width: 50%;
+  margin-top: 6px;
+ padding-left: 10px;
+ padding-right: 60px;
+    padding-bottom: 60px;
+}
+
+.row {
+  display: table;
+  clear: both;
+}
+
+@media screen and (max-width: 600px) {
+  .column, input[type=submit] {
+    width: 100%;
+    margin-top: 0;
+  }
 }
